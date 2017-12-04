@@ -11,6 +11,7 @@ Using HMM model, and TF-IDF news mining method to predict the short term stock p
 
 ### resources/
 - news.csv - 
+- demo_hmmlearning.png - a demo screenshot of hmm learning result
 
 ## License
 Copyright 2017 
