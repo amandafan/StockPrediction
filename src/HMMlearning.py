@@ -1,7 +1,8 @@
 #!/usr/bin/python3.6
 '''
 This Module generate the forcasting probabilty of stock increase x, and decrease y which x + y = 1
-use test.Hmmlearning(name, start_date, end_date) to start training 
+use import HMMlearning as hmmlearning
+hmmlearning.Hmmlearning(name, start_date, end_date) to start training 
 format: name--stock name，  start_date： mm/dd/yy  end_date： mm/dd/yy
 use test.get_prob to return increase prob, and decrease prob correspondingly
     
