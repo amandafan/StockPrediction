@@ -1,5 +1,6 @@
-from ReadFile import ReadFile
 import math
+
+from src.ReadFile import ReadFile
 
 
 class TFIDF:
