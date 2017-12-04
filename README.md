@@ -3,7 +3,7 @@ Using HMM model, and TF-IDF news mining method to predict the short term stock p
 
 ## Demo Screenshots
 - hmm learning outcome
-<img width="268" alt="screen shot 2017-12-04 at 12 19 37 am" src="https://user-images.githubusercontent.com/19808690/33578153-59118d14-d8fa-11e7-85b5-a6584312b9eb.png">
+<img width="541" alt="screen shot 2017-12-04 at 1 56 38 pm" src="https://user-images.githubusercontent.com/19808690/33578339-15b8cc20-d8fb-11e7-80a3-f57631ee76d3.png">
 
 ## File Description
 ### src/
