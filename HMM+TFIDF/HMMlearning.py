@@ -19,6 +19,7 @@ class HMMlearning:
         get historical data of one specific stock from yahoo Finance
         parameter: start--the start date  end--the end date
         '''
+<<<<<<< Updated upstream:src/HMMlearning.py
         retry = 0
         while retry < 3:
             try:
@@ -37,6 +38,22 @@ class HMMlearning:
                 retry += 1
         if retry >= 3:
             return None, None, None
+=======
+        dates = []
+        close_v = []
+        volume = []
+        try:
+            data = pdr.get_data_yahoo(self.stock, start, end)
+
+            for date, price in data['Close'].items():
+                dates.append(date)
+                close_v.append(round(price,2))
+            for date, v in data['Volume'].items():
+                volume.append(v)
+        except Exception as e:
+            print ('There is exception when getting the stock price. Exception: %s' % e)
+
+>>>>>>> Stashed changes:HMM+TFIDF/HMMlearning.py
         return dates, close_v, volume
 
     def get_prob(self):
